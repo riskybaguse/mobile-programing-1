@@ -15,9 +15,10 @@
         <LinearLayout
             android:background="@color/gray"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:gravity="center">
 
-            <Button
+            <TextView
                 android:id="@+id/btn_home"
                 android:layout_marginStart="8dp"
                 android:layout_width="45dp"
@@ -30,14 +31,13 @@
                 />
 
             <TextView
-                android:gravity="center"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="@string/app_name"
-                android:textSize="15sp"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                android:layout_marginStart="3dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
                 />
 
         </LinearLayout>
@@ -225,15 +225,16 @@
                 android:textStyle="bold"
                 />
 
-            <Button
+            <TextView
                 android:id="@+id/btn_more_popular"
                 android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:text="@string/more"
+                android:layout_height="match_parent"
                 android:background="@drawable/selector_more_button"
                 android:clickable="true"
                 android:focusable="true"
-                android:textColor="@color/text_primary"/>
+                android:text="@string/more"
+                android:textColor="@color/text_primary"
+                android:gravity="center"/>
 
         </LinearLayout>
 
@@ -275,14 +276,17 @@
                 android:textStyle="bold"
                 />
 
-            <Button
+            <TextView
                 android:id="@+id/btn_more_app"
                 android:layout_width="100dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/selector_more_button"
                 android:text="@string/more"
                 android:textAllCaps="true"
-                android:textColor="@color/text_primary"/>
+                android:textColor="@color/text_primary"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"/>
 
         </LinearLayout>
 
