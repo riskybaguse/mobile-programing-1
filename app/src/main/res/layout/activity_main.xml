@@ -21,7 +21,12 @@
                 android:id="@+id/btn_home"
                 android:layout_marginStart="8dp"
                 android:layout_width="45dp"
-                android:layout_height="wrap_content"
+                android:layout_height="45dp"
+                android:text="\u2630"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:background="@android:color/transparent"
+                android:gravity="center"
                 />
 
             <TextView
@@ -66,7 +71,9 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="@string/apps"
-                        android:background="@color/green"/>
+                        android:background="@drawable/selector_category_apps"
+                        android:clickable="true"
+                        android:focusable="true"/>
 
                 </LinearLayout>
 
@@ -84,7 +91,9 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="@string/games"
-                        android:background="@color/teal_700"
+                        android:background="@drawable/selector_category_games"
+                        android:clickable="true"
+                        android:focusable="true"
                         />
 
                 </LinearLayout>
@@ -114,7 +123,10 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="@string/movies_tv"
-                        android:background="@color/red"/>
+                        android:background="@drawable/selector_category_movie"
+                        android:clickable="true"
+                        android:focusable="true"
+                        />
 
                 </LinearLayout>
 
@@ -130,9 +142,12 @@
                         style="@style/CatergoryText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@color/orange"
+                        android:background="@drawable/selector_more_music"
                         android:gravity="center"
-                        android:text="@string/music" />
+                        android:text="@string/music"
+                        android:clickable="true"
+                        android:focusable="true"
+                        />
 
                 </LinearLayout>
 
@@ -161,7 +176,9 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="@string/books"
-                        android:background="@color/blue"/>
+                        android:background="@drawable/selector_more_books"
+                        android:clickable="true"
+                        android:focusable="true"/>
 
                 </LinearLayout>
 
@@ -179,7 +196,9 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="@string/news"
-                        android:background="@color/blue_dark"
+                        android:background="@drawable/selector_more_news"
+                        android:clickable="true"
+                        android:focusable="true"
                         />
 
                 </LinearLayout>
@@ -211,9 +230,10 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:text="@string/more"
-                android:background="@color/green"
-                android:textColor="@color/text_primary"
-                android:textAllCaps="true"/>
+                android:background="@drawable/selector_more_button"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/text_primary"/>
 
         </LinearLayout>
 
@@ -259,10 +279,10 @@
                 android:id="@+id/btn_more_app"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:background="@color/green"
+                android:background="@drawable/selector_more_button"
                 android:text="@string/more"
                 android:textAllCaps="true"
-                android:textColor="@color/text_primary" />
+                android:textColor="@color/text_primary"/>
 
         </LinearLayout>
 

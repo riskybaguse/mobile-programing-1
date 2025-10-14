@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="android:colorBackground">@color/bg_app</item>
-        <item name="android:textColorPrimary">@color/text_primary</item>
-    </style>
+<!--    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+<!--        <item name="android:colorBackground">@color/bg_app</item>-->
+<!--        <item name="android:textColorPrimary">@color/text_primary</item>-->
+<!--    </style>-->
 
     <style name="CatergoryText">
         <item name="android:textSize">@dimen/category_text_size</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="MoreButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/selector_more_button</item>
         <item name="android:textColor">@color/text_primary</item>
     </style>
 </resources>
