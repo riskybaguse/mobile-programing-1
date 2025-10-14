@@ -227,14 +227,15 @@
 
             <TextView
                 android:id="@+id/btn_more_popular"
-                android:layout_width="100dp"
+                android:layout_width="70dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/selector_more_button"
                 android:clickable="true"
                 android:focusable="true"
                 android:text="@string/more"
                 android:textColor="@color/text_primary"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:layout_margin="@dimen/padding_small"/>
 
         </LinearLayout>
 
@@ -278,7 +279,7 @@
 
             <TextView
                 android:id="@+id/btn_more_app"
-                android:layout_width="100dp"
+                android:layout_width="70dp"
                 android:layout_height="match_parent"
                 android:background="@drawable/selector_more_button"
                 android:text="@string/more"
@@ -286,7 +287,8 @@
                 android:textColor="@color/text_primary"
                 android:gravity="center"
                 android:clickable="true"
-                android:focusable="true"/>
+                android:focusable="true"
+                android:layout_margin="@dimen/padding_small"/>
 
         </LinearLayout>
 
