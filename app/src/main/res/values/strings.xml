@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Play Store Cuy</string>
     <string name="popular">Popular Apps + Games</string>
-    <string name="new_update">New + Update Games</string>
+    <string name="new_update">New + Update APP</string>
     <string name="more">MORE</string>
     <string name="movies_tv">MOVIE &amp; TV</string>
     <string name="apps">APPS</string>

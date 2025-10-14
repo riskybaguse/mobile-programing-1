@@ -12,8 +12,12 @@
     <color name="pink">#F06292</color>
     <color name="pink_dark">#8E2246</color>
     <color name="green">#4CAF50</color>
+    <color name="green_light">#6FB171</color>
     <color name="orange">#FF9800</color>
     <color name="blue">#2196F3</color>
-    <color name="card_bg">#0D2633</color>
+    <color name="blue_dark">#0C22AD</color>
+    <color name="card_bg">#FFFFFF</color>
     <color name="more_button">#0B8F8C</color>
+    <color name="red">#D31B1B</color>
+    <color name="gray">#DBDBDB</color>
 </resources>
