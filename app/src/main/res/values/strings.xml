@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Play Store Cuy</string>
+    <string name="popular">Popular Apps + Games</string>
+    <string name="new_update">New + Update Games</string>
+    <string name="more">MORE</string>
+    <string name="movies_tv">MOVIE &amp; TV</string>
+    <string name="apps">APPS</string>
+    <string name="books">BOOKS</string>
+    <string name="games">GAMES</string>
+    <string name="music">MUSIC</string>
+    <string name="news">NEWS</string>
 </resources>
