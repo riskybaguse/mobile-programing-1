@@ -123,16 +123,15 @@
                     android:layout_height="@dimen/category_height"
                     android:layout_weight="1"
                     android:gravity="center"
-                    >
+                    android:orientation="horizontal">
 
                     <TextView
                         style="@style/CatergoryText"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:text="@string/music"
                         android:background="@color/orange"
-                        />
+                        android:gravity="center"
+                        android:text="@string/music" />
 
                 </LinearLayout>
 
@@ -259,10 +258,10 @@
                 android:id="@+id/btn_more_app"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:text="@string/more"
                 android:background="@color/green"
-                android:textColor="@color/text_primary"
-                android:textAllCaps="true"/>
+                android:text="@string/more"
+                android:textAllCaps="true"
+                android:textColor="@color/text_primary" />
 
         </LinearLayout>
 
