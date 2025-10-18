@@ -13,19 +13,60 @@
         android:gravity="center">
 
         <ImageView
-            android:src="@drawable/fcmobile"
+            android:src="@drawable/hub"
             android:layout_width="@dimen/app_card_size"
             android:layout_height="@dimen/app_card_size"
             android:scaleType="centerCrop"
-            android:background="@drawable/bg_category"
+            android:background="@drawable/bg_image_rounded"
+            android:clipToOutline="true"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FC Mobile"
+            android:text="Kalkulator"
             android:textColor="@color/black"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,4 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/padding_medium">
+
+        <ImageView
+            android:src="@drawable/tiktok"
+            android:layout_width="@dimen/app_card_size"
+            android:layout_height="@dimen/app_card_size"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bg_image_rounded"
+            android:clipToOutline="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiktok"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,5 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
             />
     </LinearLayout>
 
@@ -37,19 +78,60 @@
         android:layout_marginStart="@dimen/padding_medium">
 
         <ImageView
-            android:src="@drawable/coc"
+            android:src="@drawable/facebook"
             android:layout_width="@dimen/app_card_size"
             android:layout_height="@dimen/app_card_size"
             android:scaleType="centerCrop"
-            android:background="@drawable/bg_category"
+            android:background="@drawable/bg_image_rounded"
+            android:clipToOutline="true"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Clash Of Clans"
+            android:text="Facebook"
             android:textColor="@color/black"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,3 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginStart="@dimen/padding_medium">
+
+        <ImageView
+            android:src="@drawable/instagram"
+            android:layout_width="@dimen/app_card_size"
+            android:layout_height="@dimen/app_card_size"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bg_image_rounded"
+            android:clipToOutline="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instagram"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,5 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
             />
     </LinearLayout>
 
@@ -61,19 +143,27 @@
         android:layout_marginStart="@dimen/padding_medium">
 
         <ImageView
-            android:src="@drawable/roblox"
+            android:src="@drawable/linkedin"
             android:layout_width="@dimen/app_card_size"
             android:layout_height="@dimen/app_card_size"
             android:scaleType="centerCrop"
-            android:background="@drawable/bg_category"
+            android:background="@drawable/bg_image_rounded"
+            android:clipToOutline="true"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Roblox"
+            android:text="Linked-In"
             android:textColor="@color/black"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,5 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
             />
     </LinearLayout>
 
@@ -85,19 +175,27 @@
         android:layout_marginStart="@dimen/padding_medium">
 
         <ImageView
-            android:src="@drawable/efootball"
+            android:src="@drawable/twitter"
             android:layout_width="@dimen/app_card_size"
             android:layout_height="@dimen/app_card_size"
             android:scaleType="centerCrop"
-            android:background="@drawable/bg_category"
+            android:background="@drawable/bg_image_rounded"
+            android:clipToOutline="true"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Efootball"
+            android:text="Twitter"
             android:textColor="@color/black"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,4 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
             />
     </LinearLayout>
 
@@ -109,19 +207,27 @@
         android:layout_marginStart="@dimen/padding_medium">
 
         <ImageView
-            android:src="@drawable/gta"
+            android:src="@drawable/youtubemusic"
             android:layout_width="@dimen/app_card_size"
             android:layout_height="@dimen/app_card_size"
             android:scaleType="centerCrop"
-            android:background="@drawable/bg_category"
+            android:background="@drawable/bg_image_rounded"
+            android:clipToOutline="true"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GTA"
+            android:text="Youtube Music"
             android:textColor="@color/black"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,2 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
             />
     </LinearLayout>
 
@@ -133,67 +239,27 @@
         android:layout_marginStart="@dimen/padding_medium">
 
         <ImageView
-            android:src="@drawable/freefire"
+            android:src="@drawable/spotify"
             android:layout_width="@dimen/app_card_size"
             android:layout_height="@dimen/app_card_size"
             android:scaleType="centerCrop"
-            android:background="@drawable/bg_category"
+            android:background="@drawable/bg_image_rounded"
+            android:clipToOutline="true"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Free Fire"
+            android:text="Spotify"
             android:textColor="@color/black"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
-            />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:layout_marginStart="@dimen/padding_medium">
-
-        <ImageView
-            android:src="@drawable/mobilelegends"
-            android:layout_width="@dimen/app_card_size"
-            android:layout_height="@dimen/app_card_size"
-            android:scaleType="centerCrop"
-            android:background="@drawable/bg_category"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mobile Legends"
+            android:text="4,7 ★"
+            android:textSize="10sp"
             android:textColor="@color/black"
-            android:textSize="12sp"
-            android:layout_marginTop="4dp"
-            />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:layout_marginStart="@dimen/padding_medium">
-
-        <ImageView
-            android:src="@drawable/subwaysurfer"
-            android:layout_width="@dimen/app_card_size"
-            android:layout_height="@dimen/app_card_size"
-            android:scaleType="centerCrop"
-            android:background="@drawable/bg_category"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Subway Surfer"
-            android:textColor="@color/black"
-            android:textSize="12sp"
-            android:layout_marginTop="4dp"
             />
     </LinearLayout>
 

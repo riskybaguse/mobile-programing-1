@@ -28,6 +28,13 @@
             android:textSize="12sp"
             android:layout_marginTop="4dp"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,1 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -52,6 +59,13 @@
             android:textColor="@color/black"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,3 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
             />
     </LinearLayout>
 
@@ -78,6 +92,13 @@
             android:textSize="12sp"
             android:layout_marginTop="4dp"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,6 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -102,6 +123,13 @@
             android:textColor="@color/black"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,3 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
             />
     </LinearLayout>
 
@@ -128,6 +156,13 @@
             android:textSize="12sp"
             android:layout_marginTop="4dp"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3,9 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -152,6 +187,13 @@
             android:textColor="@color/black"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,4 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
             />
     </LinearLayout>
 
@@ -178,6 +220,13 @@
             android:textSize="12sp"
             android:layout_marginTop="4dp"
             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,3 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -202,6 +251,13 @@
             android:textColor="@color/black"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4,5 ★"
+            android:textSize="10sp"
+            android:textColor="@color/black"
             />
     </LinearLayout>
 

@@ -13,7 +13,7 @@
 
 <!--        HEADER Cuy + ntar tambahin Button garis 3-->
         <LinearLayout
-            android:background="@color/gray"
+            android:background="@color/text_primary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center">
@@ -38,6 +38,20 @@
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="bold"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/btn_search"
+                android:layout_marginEnd="8dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:text="\u2315"
+                android:textSize="30sp"
+                android:rotationY="180"
+                android:textColor="@color/black"
+                android:background="@android:color/transparent"
+                android:gravity="center"
                 />
 
         </LinearLayout>
@@ -209,7 +223,7 @@
 
         <!--            Section Popular Apps + MORE-->
         <LinearLayout
-            android:background="@color/gray"
+            android:background="@color/text_primary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
@@ -235,7 +249,8 @@
                 android:text="@string/more"
                 android:textColor="@color/text_primary"
                 android:gravity="center"
-                android:layout_margin="@dimen/padding_small"/>
+                android:layout_margin="@dimen/padding_small"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
@@ -246,6 +261,7 @@
             android:fillViewport="false"
             android:scrollbars="none"
             android:layout_marginTop="@dimen/padding_large"
+            android:layout_marginBottom="@dimen/padding_large"
             >
 
             <LinearLayout
@@ -253,7 +269,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <include layout="@layout/item_app_card"/>
+                <include layout="@layout/item_app_games_card"/>
 
             </LinearLayout>
 
@@ -261,7 +277,7 @@
 
 <!--        NEW UPDATE APP-->
         <LinearLayout
-            android:background="@color/gray"
+            android:background="@color/text_primary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
@@ -288,7 +304,8 @@
                 android:gravity="center"
                 android:clickable="true"
                 android:focusable="true"
-                android:layout_margin="@dimen/padding_small"/>
+                android:layout_margin="@dimen/padding_small"
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
@@ -297,7 +314,8 @@
             android:layout_height="wrap_content"
             android:fillViewport="false"
             android:scrollbars="none"
-            android:layout_marginTop="@dimen/padding_large">
+            android:layout_marginTop="@dimen/padding_large"
+            android:layout_marginBottom="@dimen/padding_large">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -307,7 +325,9 @@
 
             </LinearLayout>
 
+
         </HorizontalScrollView>
+
 
     </LinearLayout>
 
