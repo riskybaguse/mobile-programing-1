@@ -323,34 +323,9 @@
                 android:textStyle="bold"
                 />
 
-            <LinearLayout
+            <include
                 android:id="@+id/btn_more_popular"
-                android:layout_width="80dp"
-                android:layout_height="30dp"
-                android:gravity="center"
-                android:clickable="true"
-                android:focusable="true"
-                android:background="@drawable/selector_more_button"
-                android:layout_marginEnd="15sp"
-                >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/more"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:textSize="12sp"
-                    android:layout_marginStart="15sp"/>
-
-                <ImageView
-                    android:layout_width="15dp"
-                    android:layout_height="15dp"
-                    android:src="@drawable/more"
-                    android:layout_marginStart="12sp"
-                    android:layout_marginEnd="15sp"/>
-
-            </LinearLayout>
+                layout="@layout/more_button"/>
 
         </LinearLayout>
 
@@ -394,34 +369,9 @@
                 android:textStyle="bold"
                 />
 
-            <LinearLayout
-                android:id="@+id/btn_more_update"
-                android:layout_width="80dp"
-                android:layout_height="30dp"
-                android:gravity="center"
-                android:clickable="true"
-                android:focusable="true"
-                android:background="@drawable/selector_more_button"
-                android:layout_marginEnd="15sp"
-                >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/more"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:textSize="12sp"
-                    android:layout_marginStart="15sp"/>
-
-                <ImageView
-                    android:layout_width="15dp"
-                    android:layout_height="15dp"
-                    android:src="@drawable/more"
-                    android:layout_marginStart="12sp"
-                    android:layout_marginEnd="15sp"/>
-
-            </LinearLayout>
+            <include
+                android:id="@+id/btn_more_popular"
+                layout="@layout/more_button"/>
 
         </LinearLayout>
 
@@ -461,34 +411,10 @@
                 android:padding="@dimen/padding_medium"
                 />
 
-            <LinearLayout
-                android:id="@+id/btn_more_premium"
-                android:layout_width="80dp"
-                android:layout_height="30dp"
-                android:gravity="center"
-                android:clickable="true"
-                android:focusable="true"
-                android:background="@drawable/selector_more_button"
-                android:layout_marginEnd="15sp"
-                >
+            <include
+                android:id="@+id/btn_more_popular"
+                layout="@layout/more_button"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/more"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:textSize="12sp"
-                    android:layout_marginStart="15sp"/>
-
-                <ImageView
-                    android:layout_width="15dp"
-                    android:layout_height="15dp"
-                    android:src="@drawable/more"
-                    android:layout_marginStart="12sp"
-                    android:layout_marginEnd="15sp"/>
-
-            </LinearLayout>
         </LinearLayout>
 
         <HorizontalScrollView
@@ -497,14 +423,70 @@
             android:layout_marginTop="@dimen/padding_large"
             android:layout_marginBottom="@dimen/padding_large"
             android:fillViewport="false"
-            android:scrollbars="none">
+            android:scrollbars="none"
+            >
+
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <include layout="@layout/item_app_games_premium"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <include
+                        android:id="@+id/premium1"
+                        layout="@layout/item_game"/>
+                    <include
+                        android:id="@+id/premium2"
+                        layout="@layout/item_game"/>
+                    <include
+                        android:id="@+id/premium3"
+                        layout="@layout/item_game"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <include
+                        android:id="@+id/premium4"
+                        layout="@layout/item_game"/>
+                    <include
+                        android:id="@+id/premium5"
+                        layout="@layout/item_game"/>
+                    <include
+                        android:id="@+id/premium6"
+                        layout="@layout/item_game"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+                    <include
+                        android:id="@+id/premium7"
+                        layout="@layout/item_game"/>
+                    <include
+                        android:id="@+id/premium8"
+                        layout="@layout/item_game"/>
+                    <include
+                        android:id="@+id/premium9"
+                        layout="@layout/item_game"/>>
+
+                </LinearLayout>
+
 
             </LinearLayout>
+
+
 
         </HorizontalScrollView>
 
