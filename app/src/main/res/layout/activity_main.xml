@@ -18,17 +18,14 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <TextView
+            <ImageButton
                 android:id="@+id/btn_home"
-                android:layout_marginStart="8dp"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:text="\u2630"
-                android:textSize="24sp"
-                android:textColor="@color/black"
-                android:background="@android:color/transparent"
-                android:gravity="center"
-                />
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/hamburg"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Buka Profil"
+                android:layout_marginStart="@dimen/padding_medium"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -41,18 +38,14 @@
                 android:gravity="center"
                 />
 
-            <TextView
-                android:id="@+id/btn_search"
-                android:layout_marginEnd="8dp"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
-                android:text="\u2315"
-                android:textSize="30sp"
-                android:rotationY="180"
-                android:textColor="@color/black"
-                android:background="@android:color/transparent"
-                android:gravity="center"
-                />
+            <ImageButton
+                android:id="@+id/btn_profile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/profile"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Buka Profil"
+                android:layout_marginEnd="@dimen/padding_medium"/>
 
         </LinearLayout>
 
@@ -77,19 +70,36 @@
                     android:layout_height="@dimen/category_height"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:layout_marginEnd="8dp">
+                    android:background="@drawable/selector_category_apps"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="@dimen/padding_medium"
+                    >
 
-                    <TextView
-                        style="@style/CatergoryText"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:text="@string/apps"
-                        android:background="@drawable/selector_category_apps"
-                        android:clickable="true"
-                        android:focusable="true"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <ImageView
+                            style="@style/CatergoryText"
+                            android:layout_height="30dp"
+                            android:layout_width="30dp"
+                            android:src="@drawable/apps"
+                            android:layout_marginEnd="@dimen/padding_large"/>
+
+                        <TextView
+                            style="@style/CatergoryText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0sp"
+                            android:text="@string/apps"
+                            android:gravity="center_vertical"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
+
 
 <!--                GAMES-->
                 <LinearLayout
@@ -97,18 +107,32 @@
                     android:layout_height="@dimen/category_height"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:background="@drawable/selector_category_games"
+                    android:clickable="true"
+                    android:focusable="true"
                     >
 
-                    <TextView
-                        style="@style/CatergoryText"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:text="@string/games"
-                        android:background="@drawable/selector_category_games"
-                        android:clickable="true"
-                        android:focusable="true"
-                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <ImageView
+                            style="@style/CatergoryText"
+                            android:layout_height="30dp"
+                            android:layout_width="30dp"
+                            android:src="@drawable/games"
+                            android:layout_marginEnd="@dimen/padding_large"/>
+
+                        <TextView
+                            style="@style/CatergoryText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0sp"
+                            android:text="@string/games"
+                            android:gravity="center_vertical"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -129,18 +153,33 @@
                     android:layout_height="@dimen/category_height"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:layout_marginEnd="8dp">
+                    android:background="@drawable/selector_category_movie"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="@dimen/padding_medium"
+                    >
 
-                    <TextView
-                        style="@style/CatergoryText"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:text="@string/movies_tv"
-                        android:background="@drawable/selector_category_movie"
-                        android:clickable="true"
-                        android:focusable="true"
-                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <ImageView
+                            style="@style/CatergoryText"
+                            android:layout_height="30dp"
+                            android:layout_width="30dp"
+                            android:src="@drawable/movie"
+                            android:layout_marginEnd="@dimen/padding_large"/>
+
+                        <TextView
+                            style="@style/CatergoryText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0sp"
+                            android:text="@string/movies_tv"
+                            android:gravity="center_vertical"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -150,18 +189,32 @@
                     android:layout_height="@dimen/category_height"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:orientation="horizontal">
+                    android:background="@drawable/selector_more_music"
+                    android:clickable="true"
+                    android:focusable="true"
+                    >
 
-                    <TextView
-                        style="@style/CatergoryText"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/selector_more_music"
-                        android:gravity="center"
-                        android:text="@string/music"
-                        android:clickable="true"
-                        android:focusable="true"
-                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <ImageView
+                            style="@style/CatergoryText"
+                            android:layout_height="30dp"
+                            android:layout_width="30dp"
+                            android:src="@drawable/music"
+                            android:layout_marginEnd="@dimen/padding_large"/>
+
+                        <TextView
+                            style="@style/CatergoryText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0sp"
+                            android:text="@string/music"
+                            android:gravity="center_vertical"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -182,17 +235,33 @@
                     android:layout_height="@dimen/category_height"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:layout_marginEnd="8dp">
+                    android:background="@drawable/selector_more_books"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="@dimen/padding_medium"
+                    >
 
-                    <TextView
-                        style="@style/CatergoryText"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:text="@string/books"
-                        android:background="@drawable/selector_more_books"
-                        android:clickable="true"
-                        android:focusable="true"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <ImageView
+                            style="@style/CatergoryText"
+                            android:layout_height="30dp"
+                            android:layout_width="30dp"
+                            android:src="@drawable/books"
+                            android:layout_marginEnd="@dimen/padding_large"/>
+
+                        <TextView
+                            style="@style/CatergoryText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0sp"
+                            android:text="@string/books"
+                            android:gravity="center_vertical"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -202,18 +271,32 @@
                     android:layout_height="@dimen/category_height"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:background="@drawable/selector_more_news"
+                    android:clickable="true"
+                    android:focusable="true"
                     >
 
-                    <TextView
-                        style="@style/CatergoryText"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:text="@string/news"
-                        android:background="@drawable/selector_more_news"
-                        android:clickable="true"
-                        android:focusable="true"
-                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <ImageView
+                            style="@style/CatergoryText"
+                            android:layout_height="30dp"
+                            android:layout_width="30dp"
+                            android:src="@drawable/news"
+                            android:layout_marginEnd="@dimen/padding_large"/>
+
+                        <TextView
+                            style="@style/CatergoryText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0sp"
+                            android:text="@string/news"
+                            android:gravity="center_vertical"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -226,6 +309,7 @@
             android:background="@color/text_primary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             >
 
             <TextView
@@ -239,15 +323,34 @@
                 android:textStyle="bold"
                 />
 
-            <TextView
-                style="@style/MoreButton"
+            <LinearLayout
                 android:id="@+id/btn_more_popular"
-                android:layout_width="70dp"
-                android:layout_height="match_parent"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:gravity="center"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="@string/more"
-                android:layout_margin="@dimen/padding_small"/>
+                android:background="@drawable/selector_more_button"
+                android:layout_marginEnd="15sp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/more"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_marginStart="15sp"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/more"
+                    android:layout_marginStart="12sp"
+                    android:layout_marginEnd="15sp"/>
+
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -277,6 +380,7 @@
             android:background="@color/text_primary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             >
 
             <TextView
@@ -290,15 +394,34 @@
                 android:textStyle="bold"
                 />
 
-            <TextView
-                style="@style/MoreButton"
-                android:id="@+id/btn_more_apps"
-                android:layout_width="70dp"
-                android:layout_height="match_parent"
+            <LinearLayout
+                android:id="@+id/btn_more_update"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:gravity="center"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="@string/more"
-                android:layout_margin="@dimen/padding_small"/>
+                android:background="@drawable/selector_more_button"
+                android:layout_marginEnd="15sp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/more"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_marginStart="15sp"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/more"
+                    android:layout_marginStart="12sp"
+                    android:layout_marginEnd="15sp"/>
+
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -325,6 +448,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/text_primary"
+            android:gravity="center"
             >
             <TextView
                 android:layout_width="0dp"
@@ -336,15 +460,35 @@
                 android:textSize="15sp"
                 android:padding="@dimen/padding_medium"
                 />
-            <TextView
-                style="@style/MoreButton"
-                android:id="@+id/btn_more_premium_game"
-                android:layout_width="70dp"
-                android:layout_height="match_parent"
+
+            <LinearLayout
+                android:id="@+id/btn_more_premium"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:gravity="center"
                 android:clickable="true"
                 android:focusable="true"
-                android:text="@string/more"
-                android:layout_margin="@dimen/padding_small"/>
+                android:background="@drawable/selector_more_button"
+                android:layout_marginEnd="15sp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/more"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_marginStart="15sp"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/more"
+                    android:layout_marginStart="12sp"
+                    android:layout_marginEnd="15sp"/>
+
+            </LinearLayout>
         </LinearLayout>
 
         <HorizontalScrollView
