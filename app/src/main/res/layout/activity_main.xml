@@ -394,6 +394,7 @@
 
         </HorizontalScrollView>
 
+<!--        Premium Games Headline-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -417,6 +418,7 @@
 
         </LinearLayout>
 
+<!--        Premium Games List App-->
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -431,6 +433,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
+<!--                Baris Pertama-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -448,6 +451,7 @@
 
                 </LinearLayout>
 
+<!--                Baris Kedua-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -465,12 +469,12 @@
 
                 </LinearLayout>
 
+<!--                Baris Ketiga-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:gravity="center"
-                    >
+                    android:gravity="center">
                     <include
                         android:id="@+id/premium7"
                         layout="@layout/item_game"/>
@@ -485,7 +489,6 @@
 
 
             </LinearLayout>
-
 
 
         </HorizontalScrollView>

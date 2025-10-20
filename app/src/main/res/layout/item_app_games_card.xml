@@ -237,7 +237,7 @@
         android:layout_marginStart="@dimen/padding_medium">
 
         <ImageView
-            android:src="@drawable/subwaysurfer"
+            android:src="@drawable/maxwin"
             android:layout_width="@dimen/app_card_size"
             android:layout_height="@dimen/app_card_size"
             android:scaleType="centerCrop"
@@ -247,7 +247,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Subway Surfer"
+            android:text="RSN VIP6 SLOT"
             android:textColor="@color/black"
             android:textSize="12sp"
             android:layout_marginTop="4dp"
@@ -255,7 +255,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="4,5 ★"
+            android:text="4,1 ★"
             android:textSize="10sp"
             android:textColor="@color/black"
             />
